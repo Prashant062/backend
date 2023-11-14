@@ -12,7 +12,6 @@ const connectToMongo = async() => {
     console.error('Error connecting to MongoDB:', error.message);
   }
 }
-
 // Call the function to connect to MongoDB
 connectToMongo();
 module.exports = connectToMongo
